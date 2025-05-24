@@ -10974,7 +10974,11 @@ section.resume-section .resume-section-content {
 }
 
 .carousel-img {
-    max-height: 400px; /* Adjust to your need */
+    max-height: 450px; /* Adjust to your need */
+    object-fit: cover;
+}
+.iups-Carousel-img {
+    max-height: 800px; /* Adjust to your need */
     object-fit: cover;
 }
 
