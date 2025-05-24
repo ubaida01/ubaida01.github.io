@@ -10972,3 +10972,15 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.carousel-img {
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 200px;
+  }
+}
