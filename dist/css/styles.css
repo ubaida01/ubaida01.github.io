@@ -10974,13 +10974,16 @@ section.resume-section .resume-section-content {
 }
 
 .carousel-img {
-  height: 350px;
-  object-fit: cover;
-  object-position: center;
+    max-height: 400px; /* Adjust to your need */
+    object-fit: cover;
 }
+
 
 @media (max-width: 768px) {
   .carousel-img {
     height: 200px;
   }
+}
+#portfolioCarousel {
+    margin-bottom: 2rem;
 }
